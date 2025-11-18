@@ -1,0 +1,298 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh ;
+}
+
+.container{
+    flex: 1;
+}
+
+/* Nav bar */
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #007bff ;
+    font-size: 2rem;
+}
+
+.nav-link{
+  color:#2c3e50  !important;
+}
+.nav-link-bl{
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 450;
+    padding: 10px 0px;
+}
+.nav-link-wh{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 450;
+    padding: 10px 18px;
+}
+
+.new-btn{
+    color: #2c3e50        ;
+    text-decoration: none;
+    /* font-weight: 450; */
+    
+    padding: 10px 18px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid #007bff ;
+    outline: none;
+    border-radius: 25px;
+}
+
+.pm-btn-color{
+    color: #2c3e50   ;
+    text-decoration: none;
+   
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #007bff;
+    border: 2px solid #007bff ;
+    outline: none;
+    border-radius: 25px;
+}
+
+.pm-btn-color:hover{
+    color: #2c3e50;
+    background-color: #f0f8ff;
+    border: 2px solid #007bff ;
+
+    .nav-link-wh{
+        color:#2c3e50;
+    }
+}
+
+
+
+.new-btn:hover{
+
+    background-color: #f0f8ff ;
+    color:#2c3e50  ;
+
+
+}
+
+.margRight{
+    margin-right: 10px;
+}
+
+
+/* Search  */
+.search-btn{
+    background-color: #007bff       ;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0 1rem 0 1rem;
+  }
+  .search-btn:hover{
+    background-color: #f0f8ff ;
+    color: #2c3e50;
+  }
+  .search-btn i{
+    display: inline;
+    margin-right: 0.5rem;
+  }
+
+  .search-inp{
+    border-radius: 25px;
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+  }
+
+/* filter */
+
+    #filters{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .filter{
+     
+      text-align: center;
+      margin-right: 1.5rem;
+      margin-top: 2rem;
+      opacity: 0.55;
+      margin-bottom: 16px;
+    }
+    .filter a{
+      font-size: 1rem;
+      text-decoration: none;
+      color: #2c3e50;
+      
+    }
+
+    .filter:hover{
+      opacity: 1;
+      cursor: pointer;
+    }
+
+    .tax-info{
+      display: none;
+    }
+
+    .tax-toggle{
+      border: 1px solid #2c3e50;
+      border-radius: 1rem;
+      height: 3.25rem;
+      padding: 1rem;
+      margin-left: 2rem;
+      display: flex;
+      align-items: center;
+    }
+  
+
+/* footer */
+
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #f0f8ff ;
+    color: #2c3e50 ;
+    display: flex;
+flex-wrap: wrap; 
+justify-content: center;
+align-items: space-evenly;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #2c3e50 ;
+    margin: 0pc 4px;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-social, .f-info-brand{
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ 
+}
+.f-info-social i{
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+/* Cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    height: 20rem;
+}
+
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text{
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+
+/* Card Effect */
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: #f0f8ff ;
+}
+
+
+.add-btn{
+    background-color: #007bff  !important;
+    border: none !important;
+}
+.edit-btn{
+    background-color: #007bff  !important;
+    border: none !important;
+}
+
+
+/* show page */
+
+.show-img{
+    height: 40vh;
+    
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.err{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+    align-items: center;
+    /* margin: 0px 100px; */
+
+    margin-top: 200px;
+
+    padding : 20px 0px ;
+    border: 2px solid black;
+}
+
+/* Map */
+
+
+#map {
+    height: 400px;
+    width: 100%; 
+     }
+     
+     .rev-card{
+        background-color: #f0f8ff;
+        background-color: #f0f8ff;
+    padding: 1rem;
+    border-radius: 10px;
+     }
+.search-mobile{
+        display: none;
+     }
+     
+
+
+     #payButton{
+        padding: 0.4rem 1rem;
+        border-radius: 2rem;
+        margin-top: 0.4rem;
+     }
