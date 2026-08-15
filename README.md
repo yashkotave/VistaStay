@@ -2,6 +2,10 @@
 
 Simple vacation rental listing app built with Express, EJS, MongoDB, Passport, and Razorpay integration.
 
+## Live Demo
+
+🔗 **[View the app](https://vista-stay-ashen.vercel.app/listing)**
+
 ## Project structure
 
 - `app.js` - main Express server and middleware setup
